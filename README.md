@@ -28,9 +28,9 @@ You create a reusable Codex skill, an interview report, a market-research brief,
 
 Add yourself to [SHOWCASE.md](SHOWCASE.md), then bring your work into the **AI Native Sandbox** community to keep applying the same workflows to real projects.
 
-## Publishing placeholder
+## Public course
 
-Before publishing this template, replace `REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL` and `REPLACE_WITH_CODEX_BOOTCAMP_SHOWCASE_URL` with the final public URLs.
+The course repository is [github.com/euroconic/codex-bootcamp](https://github.com/euroconic/codex-bootcamp). Completed learners can follow the instructions in [SHOWCASE.md](SHOWCASE.md) to submit their work.
 
 ## Maintainer validation
 

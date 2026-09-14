@@ -4,11 +4,7 @@ This is the board. Everyone here started from zero, ran all core missions, and s
 
 ## How to get on the board
 
-The public showcase URL is not set yet. Before publishing the course, replace:
-
-`REPLACE_WITH_CODEX_BOOTCAMP_SHOWCASE_URL`
-
-Once it is available:
+Open the [public showcase](https://github.com/euroconic/codex-bootcamp/blob/main/SHOWCASE.md), then:
 
 1. Open `SHOWCASE.md` in the public repository.
 2. Click the pencil icon.
@@ -22,7 +18,7 @@ Prefer help? Ask your mentor: "help me open a pull request to add me to the boot
 
 | Name / handle | Role | What you built | Link |
 |---|---|---|---|
-| Andrew Tomin | Product Manager | Built the bootcamp itself | `REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL` |
+| Andrew Tomin | Product Manager | Built the bootcamp itself | [Codex Bootcamp](https://github.com/euroconic/codex-bootcamp) |
 | _your name here_ | _your role_ | _one line_ | _your repo or MVP_ |
 
 ---

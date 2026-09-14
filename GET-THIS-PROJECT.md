@@ -4,15 +4,9 @@ You do not need a GitHub account to download this course. If you already have th
 
 > In one sentence: **GitHub** is a website where project files can live. You are downloading a folder from it, like downloading a PDF.
 
-## Before this course is published
-
-The public repository URL is not set yet. The course owner must replace this placeholder before release:
-
-`REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL`
-
 ## Download the course
 
-1. Open `REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL` in your browser.
+1. Open [github.com/euroconic/codex-bootcamp](https://github.com/euroconic/codex-bootcamp) in your browser.
 2. Click the green **Code** button.
 3. Click **Download ZIP**.
 4. Find the download and unzip it:
