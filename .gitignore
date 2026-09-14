@@ -16,6 +16,11 @@ Thumbs.db
 node_modules/
 .vercel/
 
+# Local secrets. Commit a redacted example file only.
+.env
+.env.*
+!.env.example
+
 # Instructor answer key - never ship this in the public template repo.
 # Kept locally in the working tree, just not tracked/pushed.
 facilitator/

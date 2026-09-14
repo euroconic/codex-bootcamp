@@ -1,6 +1,6 @@
 # Your Progress
 
-Mentor: read this file at the start of every session. The **checkboxes below are the single source of truth.** The current mission is the first one that is not checked. The "Current mission" line just below is a convenience pointer - keep it matching the first unchecked box. When the learner types `next` and the Definition of Done is met, tick the box, then update the pointer line.
+Mentor: read this file at the start of every session. The **checkboxes below are the single source of truth.** The current mission is the first one that is not checked. The "Current mission" line just below is a convenience pointer - repair it when it does not match the first unchecked box. When the learner types `next` and the Definition of Done is met, tick the box, then update the pointer line. If every box is checked, set the pointer to `Complete - Course finished` and give the graduation response instead of reopening Mission 00. For an optional mission skipped by learner choice, check its box and record the skip under "Notes from your mentor."
 
 **Current mission:** 00 — Setup & First Contact
 

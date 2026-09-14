@@ -30,7 +30,11 @@ Add yourself to [SHOWCASE.md](SHOWCASE.md), then bring your work into the **AI N
 
 ## Publishing placeholder
 
-Before publishing this template, replace `REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL` everywhere with the final public repository URL.
+Before publishing this template, replace `REPLACE_WITH_CODEX_BOOTCAMP_REPOSITORY_URL` and `REPLACE_WITH_CODEX_BOOTCAMP_SHOWCASE_URL` with the final public URLs.
+
+## Maintainer validation
+
+Before a release, run `ruby scripts/validate_course.rb`. It checks the mission set, fresh progress state, source-data shape, internal links, clean learner workspace, Codex naming, and the critical completion and safety rules.
 
 ## Copyright
 

@@ -18,7 +18,7 @@ A PRD is the contract between "what we decided" and "what gets built." It is how
 
 ## Definition of Done
 - `workspace/PRD.md` exists.
-- It includes at minimum: a TL;DR, the problem, the target user, a hypothesis, in-scope (top features), an explicit out-of-scope section with reasoning, and at least one concrete success metric.
+- It includes at minimum: a TL;DR, the problem, the target user, a hypothesis and counter-hypothesis, in-scope (top features), an explicit out-of-scope section with reasoning, and at least one concrete success metric with a target.
 
 ## Hints (mentor: one at a time)
 1. Reuse, do not reinvent. The target user comes from the decision memo; the scope comes from the prioritization. The PRD just assembles them.

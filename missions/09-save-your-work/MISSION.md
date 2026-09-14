@@ -24,11 +24,11 @@ Before you save anything, one habit worth keeping for life: never commit real se
 
 ## What to do
 1. Ask your mentor: "is this project using git yet?" If not: "set up git for this project."
-2. Set your identity (one-time, required before your first ever commit, or git will stop with an "unknown author" error). Ask your mentor: "set my git name and email." The commands it runs are:
-   > `git config --global user.name "Your Name"` and `git config --global user.email "you@example.com"`
-   If you have committed on this computer before, this is already done and you can skip it.
+2. Set your identity if git does not already know it, or git will stop with an "unknown author" error. Ask your mentor: "set my git name and email for this project." The commands it runs are:
+   > `git config user.name "Your Name"` and `git config user.email "you@example.com"`
+   These settings affect only this course repository. If you have committed here before, you can skip this step.
 3. Before your first commit, build the secrets-check habit: ask "confirm nothing sensitive, like API keys or a .env file, is about to be committed." Then take your first snapshot. A strong prompt:
-   > "Initialize git here if needed, then stage everything and make a first commit with the message 'Signal bootcamp: research, decision, PRD, and MVP'. Then show me the log so I can see my save point."
+   > "Initialize git here if needed. Show me `git status`, confirm no secrets are listed, then stage `PROGRESS.md`, `workspace/`, and `.agents/skills/`. Make a learner snapshot with the message 'Signal bootcamp: research, decision, PRD, and MVP'. Then show me the log and the files in that commit."
 4. Make a tiny change (edit a line in your PRD), then ask: "show me what changed since my last commit, then commit it with a clear message." This is the loop: change, review, commit.
 5. Ask your mentor to explain the three core moves in one line each: `add` (choose what to save), `commit` (save with a note), `log` (see your history).
 6. **(Optional) Publish your version to your own GitHub.** This turns your work into a public portfolio piece and sets up the graduation step in the capstone. First, the one distinction worth having straight:
@@ -45,7 +45,8 @@ Before you save anything, one habit worth keeping for life: never commit real se
    Your mentor can guide you through the browser. If the `gh` command-line tool is already installed, Codex can also use it after you approve the external action. Installing software and signing in are separate steps that require your choice. Keep the repo public only if you are comfortable sharing every tracked file.
 
 ## Definition of Done
-- The project is a git repository with at least one commit (`git log` shows it).
+- Git history contains a learner-created commit with learner work; an existing course/template commit by itself does not count. A ZIP download may have no baseline commit, which is fine.
+- That learner commit contains the course work, including `workspace/PRD.md` and `workspace/mvp/index.html`; verify with `git show --name-only --format= <learner-commit>` rather than counting the pre-existing template commit.
 - The learner can explain, in their own words, what a commit is.
 - (Optional) The project is pushed to a public GitHub repo and the learner has the link.
 

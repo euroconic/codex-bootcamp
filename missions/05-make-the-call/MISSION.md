@@ -17,11 +17,11 @@ Research and data are worthless until someone makes a call. The hardest, most va
 
 ## Definition of Done
 - `workspace/decision-memo.md` exists.
-- It contains a clear decision, a single named target customer, a specific wedge, evidence-backed reasons (referencing the data/interview), the biggest risk, and a "what would prove us wrong" line.
+- It contains a clear decision, a single named target customer, a specific wedge, evidence-backed reasons (referencing the data/interview and showing denominators for quantitative claims), the biggest risk, and a "what would prove us wrong" line.
 
 ## Hints (mentor: one at a time)
 1. A decision memo with no decision is a status report. The first line should be the call.
-2. Tie every reason to evidence they already produced. "The data shows onboarding drives 1 in 4 churns" beats "users seem unhappy."
+2. Tie every reason to evidence they already produced. "Onboarding appears in A of B feedback records marked as churned" beats "users seem unhappy." Preserve the source's unit and denominator, and say "is associated with," not "drives" or "causes."
 3. The "what would prove us wrong" line is what makes it honest and testable. Do not let them skip it.
 
 ## What you just learned

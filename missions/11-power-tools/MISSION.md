@@ -24,7 +24,7 @@ Use the Signal MVP from Mission 08. Ask Codex:
 
 > Use two subagents in parallel. Have one review `workspace/mvp/index.html` for accessibility and usability issues. Have the other compare its claims and features with `workspace/PRD.md`. Do not edit any files. Wait for both, then give me one combined list of the five most important findings.
 
-These checks are independent, which makes them a good fit for delegation. If the learner uses the CLI, `/agent` can show agent threads. In the desktop app or IDE, use the visible subagent activity panel when available.
+These checks are independent, which makes them a good fit for delegation. Subagents inherit the parent permission mode, so keep the parent in a read-only mode for this review when the interface offers one. If the learner uses the CLI, `/agent` can show agent threads. In the desktop app or IDE, use the visible subagent activity panel when available.
 
 See the [official Codex subagent guide](https://learn.chatgpt.com/docs/agent-configuration/subagents) if the interface behaves differently from this brief.
 
@@ -40,7 +40,7 @@ Ask:
 
 Then make a decision: **use**, **consider later**, or **skip**. Installing or connecting it is optional. If the learner chooses to continue, explain the permission request before it appears and use only non-sensitive course data for the test.
 
-If plugins are unavailable in the learner's interface or organization, evaluate the concept using the information Codex can show and record that limitation. Do not block completion on an external account.
+If plugins are unavailable in the learner's interface or organization, record where you checked, state that none were available, and evaluate a hypothetical product-work plugin with this permission checklist: intended value, account/data it would need, least access acceptable, and a use/consider-later/skip decision. Do not invent an available plugin and do not block completion on an external account.
 
 ### Step 4 - Write down the lesson
 
@@ -48,13 +48,13 @@ Save `workspace/power-tools-notes.md` with:
 
 - The two delegated checks and the combined findings.
 - The learner's explanation of how a skill differs from a subagent.
-- The plugin or connector evaluated, its relevant access, and the learner's decision.
+- Either the plugin or connector evaluated, its relevant access, and the learner's decision; or the documented unavailable-plugin fallback and hypothetical permission checklist.
 
 ## Definition of Done
 
 - Codex completed the two read-only checks through explicit subagent delegation and combined the results.
 - `workspace/power-tools-notes.md` exists with the findings and the learner's own skill-versus-subagent explanation.
-- The notes identify one plugin or connector, its relevant permissions or data access, and a use/consider/skip decision.
+- The notes either identify one available plugin or connector, its relevant access, and a use/consider-later/skip decision; or document that none were available, where the learner checked, and the completed hypothetical permission checklist.
 - No plugin or external account was connected without explicit learner approval.
 
 Because this mission is optional, consciously skipping it is also a pass. Record the skip in `PROGRESS.md` and continue to the Capstone.

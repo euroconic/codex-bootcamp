@@ -6,7 +6,7 @@
 Put your landing page on the public internet with a real URL you can send to anyone, using Vercel or GitHub Pages (both free hosting options).
 
 ## Why it matters
-A landing page on your laptop tests nothing. A landing page with a public link can be shared, posted, and measured, which is how you actually validate demand. Getting from "it works on my machine" to "here is the link" is the last mile that most people never cross. You are about to cross it.
+A landing page on your laptop is hard to share. A public link lets people review the message and experience. It measures sign-up demand only if the page uses a real, consent-based form; the default Mission 08 demo does not collect emails. Getting from "it works on my machine" to "here is the link" is the last mile that most people never cross.
 
 ## Before you start (prerequisite check)
 This is the one mission that needs a couple of real-world things. Your mentor will check with you:
@@ -35,9 +35,12 @@ The **Vercel CLI** is just a way to talk to Vercel from your terminal instead of
 
 ### Path C — GitHub Pages (if you already pushed to GitHub in Mission 09)
 If you completed the optional GitHub step in Mission 09, GitHub itself can host your page for free, no separate account needed:
-1. Ask your mentor: "walk me through turning on GitHub Pages for my repo so workspace/mvp/index.html is live."
-2. Typically: in your repo on GitHub, go to Settings > Pages, set the source to your branch, and (since the page lives in `workspace/mvp/`) point the folder there or move/copy `index.html` to where Pages expects it. Your mentor will tell you exactly which, based on how your repo is laid out.
-3. GitHub gives you a `github.io` URL a minute or two after you save the setting.
+1. Ask your mentor: "copy my static MVP into `docs/`, commit and push that copy, then walk me through enabling GitHub Pages from the `docs/` folder."
+2. Confirm `docs/index.html` exists and opens locally. Commit and push `docs/` to the branch used by your GitHub repository (usually `main`).
+3. In GitHub, open **Settings > Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select that branch and the `/docs` folder, then save. GitHub Pages accepts only the repository root or `/docs` for branch-based publishing; do not point it at `workspace/mvp/`.
+4. Wait for GitHub to show the `github.io` URL, open it, and confirm the Signal page loads before claiming success.
+
+If GitHub's screen differs, use its official [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ## Definition of Done
 - A live, public URL exists that shows your Signal landing page, OR
@@ -45,7 +48,7 @@ If you completed the optional GitHub step in Mission 09, GitHub itself can host 
 
 ## Hints (mentor: one at a time)
 1. Path A (drag and drop) is the lowest-friction route for non-technical learners. Suggest it first, unless they already have a GitHub repo from Mission 09, in which case Path C is a nice one-click-setting option.
-2. Because the MVP is a single static `index.html`, no special config is needed. Vercel and GitHub Pages will both serve it as-is.
+2. Vercel can serve the `workspace/mvp/` folder directly. GitHub Pages needs the copy in `/docs` (or a separate Actions workflow, which this beginner course does not use).
 3. If a deploy fails, the usual culprits are: wrong folder selected, or not logged in. Check those first.
 4. Celebrate the live URL hard. Sending a real link to a real product is a genuine "I made this" moment.
 
