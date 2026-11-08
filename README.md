@@ -1,6 +1,6 @@
-# Codex Bootcamp
+# AISandboxLab.com Codex Bootcamp
 
-**A Codex Bootcamp by [AIsandboxlab.com](http://AIsandboxlab.com).**
+**A Codex Bootcamp by [AISandboxLab.com](https://AISandboxLab.com).**
 
 A self-paced course where **Codex itself is your mentor**. Open this folder in the Codex desktop app, Codex CLI, or the Codex IDE extension, type `begin`, and work through one continuous product case from a fuzzy startup idea to a shipped MVP. No coding background needed.
 
@@ -26,7 +26,7 @@ You create a reusable Codex skill, an interview report, a market-research brief,
 
 ## When you finish
 
-Add yourself to [SHOWCASE.md](SHOWCASE.md), then bring your work into the **AI Native Sandbox** community to keep applying the same workflows to real projects.
+Add yourself to [SHOWCASE.md](SHOWCASE.md), then bring your work into the **AI Sandbox Lab** community to keep applying the same workflows to real projects.
 
 ## Public course
 
@@ -38,8 +38,8 @@ Before a release, run `ruby scripts/validate_course.rb`. It checks the mission s
 
 ## Copyright
 
-© Andrew Tomin / AIsandboxlab.com. Free for individual self-paced learning. Not for resale or use in paid training run by other companies or individuals without written permission. See [LICENSE](LICENSE) for the full terms.
+© Andrew Tomin / AISandboxLab.com. Free for individual self-paced learning. Not for resale or use in paid training run by other companies or individuals without written permission. See [LICENSE](LICENSE) for the full terms.
 
 ---
 
-Built by Andrew Tomin, [AIsandboxlab.com](http://AIsandboxlab.com). Codex is a product of OpenAI.
+Built by Andrew Tomin, [AISandboxLab.com](https://AISandboxLab.com). Codex is a product of OpenAI.

@@ -23,4 +23,4 @@ Prefer help? Ask your mentor: "help me open a pull request to add me to the boot
 
 ---
 
-Finished and want to keep going on your real work? Bring your repo and questions to the **AI Native Sandbox** community.
+Finished and want to keep going on your real work? Bring your repo and questions to the **AI Sandbox Lab** community.

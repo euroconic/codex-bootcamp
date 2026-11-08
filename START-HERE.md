@@ -1,6 +1,6 @@
-# Start Here - Codex Bootcamp
+# Start Here - AISandboxLab.com Codex Bootcamp
 
-A Codex Bootcamp by [AIsandboxlab.com](http://AIsandboxlab.com).
+A Codex Bootcamp by [AISandboxLab.com](https://AISandboxLab.com).
 
 By the end, you will have researched a market, analyzed customer data, written a PRD, built a working web page, and optionally published it. You do it by talking to Codex in plain English. No coding background needed.
 
@@ -66,6 +66,6 @@ Open the folder in any Codex interface and type `begin`.
 
 ## Who built this
 
-This bootcamp was built by **Andrew Tomin**, a Senior/Staff Product Manager with 12+ years in enterprise B2B product. He builds AI agents and tools for his own workflows and teaches knowledge workers to use them on real work.
+This bootcamp was built by **Andrew Tomin**, a Senior/Staff Product Manager with 14+ years in enterprise B2B product. He builds AI agents and tools for his own workflows and teaches knowledge workers to use them on real work.
 
 Found a rough edge? Record it. That feedback makes the next version better.
