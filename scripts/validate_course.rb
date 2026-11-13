@@ -30,9 +30,9 @@ check.call("required WORK-CASE.md", root.join("WORK-CASE.md").file?)
 expected_sessions = {
   "s1-context" => %w[1A 1B],
   "s2-skills" => %w[2A 2B 2C],
-  "s3-external-data" => %w[3A 3B],
+  "s3-external-data" => %w[3A 3B 3C],
   "s4-prototype-and-roles" => %w[4A 4B 4C],
-  "s5-memory" => %w[5A 5B],
+  "s5-memory" => %w[5A 5B 5C 5D],
   "s6-bonus-knowledge" => %w[6A]
 }
 session_dirs = Dir[root.join("sessions/*")].select { |path| File.directory?(path) }.map { |path| File.basename(path) }.sort
@@ -52,7 +52,7 @@ end
 
 progress = root.join("PROGRESS.md").read
 check.call("fresh progress pointer", progress.include?("**Current mission:** 00"))
-check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 27, "got #{progress.scan(/^- \[ \] /).length}")
+check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 30, "got #{progress.scan(/^- \[ \] /).length}")
 check.call("no completed boxes in template", progress.scan(/^- \[[xX]\] /).empty?)
 
 csv = CSV.read(root.join("data/feedback.csv"), headers: true)
