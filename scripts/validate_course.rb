@@ -52,7 +52,7 @@ end
 
 progress = root.join("PROGRESS.md").read
 check.call("fresh progress pointer", progress.include?("**Current mission:** 00"))
-check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 26, "got #{progress.scan(/^- \[ \] /).length}")
+check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 27, "got #{progress.scan(/^- \[ \] /).length}")
 check.call("no completed boxes in template", progress.scan(/^- \[[xX]\] /).empty?)
 
 csv = CSV.read(root.join("data/feedback.csv"), headers: true)

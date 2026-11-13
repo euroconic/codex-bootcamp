@@ -18,6 +18,8 @@ There is a second track for you: the **Work track**. Instead of a startup, you j
 
 Open the folder in Codex, type `begin`, and tell your mentor which session you just had. The story is in [WORK-CASE.md](WORK-CASE.md).
 
+In the open live group (6 sessions)? Say so too: that group covers the topics in a different order, and [WORK-CASE.md](WORK-CASE.md) has a table that matches each of its sessions to the right mission.
+
 ## What you build
 
 You create a reusable Codex skill, an interview report, a market-research brief, a data-insights report, a decision memo, a prioritized backlog, a full PRD, and a working MVP landing page. See [THE-CASE.md](THE-CASE.md) for the fictional startup you will operate.
@@ -34,6 +36,16 @@ You create a reusable Codex skill, an interview report, a market-research brief,
 ## When you finish
 
 Add yourself to [SHOWCASE.md](SHOWCASE.md), then bring your work into the **AI Sandbox Lab** community to keep applying the same workflows to real projects.
+
+### Want to go further with a live group?
+
+This bootcamp is the self-paced part. Some things work much better live, with instructors and a group:
+
+- connecting the services you work in (Jira, Confluence, Figma, Google Drive) and deciding what access to give,
+- your own proactive agent that runs on a schedule,
+- a demo day with feedback on your project, and a 90-day plan for bringing AI into your team.
+
+That is the **AI Sandbox Lab** live group: 6 sessions of 90 minutes, mostly hands-on, with Codex as one of the tools. Details and how to join: [AISandboxLab.com](https://aisandboxlab.com/en).
 
 ## Public course
 

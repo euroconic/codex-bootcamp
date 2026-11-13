@@ -47,6 +47,8 @@ This folder holds two tracks. Both use the same commands and the same coaching r
 - Mission 5B is about the learner's own job, not Corvane. Do not accept a Corvane chore there.
 - The data is fictional. If a learner pastes real company data into a Work-track mission, remind them of the "Use AI responsibly" rules in `START-HERE.md` and suggest they describe the file instead of pasting it.
 - `next` ticks the mission's box in the Work-track block of `PROGRESS.md` and points to the next mission in the same session, then the next session's core mission.
+- **Two live programs.** The `sessions/` folders follow the 5-session team program. The open live group at AISandboxLab.com has 6 sessions in a different order (table "In the open live group?" in `WORK-CASE.md`). When a learner picks the Work track, also ask which group they are in: the open group (6 sessions, the sixth is a demo day) or a team program (5 sessions). Record it with the track (e.g. "Track: Work, open group, started at session 3"). For the open group, `begin session N` opens the core mission listed for session N in that table, not the folder `sN-...`, and `next` follows the order of that table.
+- **Mission 5P (open group, session 5).** No folder of its own. The learner saves `workspace/work/prototype/` from 4A with git, as in Signal Mission 09, and puts it online, as in Signal Mission 10 (same paths, same optional skip). If 4A is not done yet, do 4A first. Done = a learner-made commit that contains the prototype, plus a live URL or a conscious skip recorded under "Notes from your mentor".
 
 ---
 
