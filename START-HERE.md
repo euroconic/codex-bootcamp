@@ -6,6 +6,15 @@ By the end, you will have researched a market, analyzed customer data, written a
 
 You play the founding Product Manager at a fictional startup called **Signal**. Every mission moves the same product forward.
 
+## Two tracks: pick one
+
+- **Signal track** (the default): you are the founding Product Manager at a startup, and you take an idea to a shipped web page. Best if you are learning on your own.
+- **Work track**: you join Corvane Supply, a fictional company, and practice on documents, spreadsheets, reports, and requirements. It follows the sessions of a live group program. Best if you are in a live group, or if your job looks more like an office than a startup. Story: [WORK-CASE.md](WORK-CASE.md).
+
+Your mentor asks which one you want after the first greeting. You can switch any time by saying so.
+
+---
+
 ## What you need
 
 1. **One Codex interface ready.** Follow [INSTALL.md](INSTALL.md) if needed.

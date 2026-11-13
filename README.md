@@ -12,6 +12,12 @@ A self-paced course where **Codex itself is your mentor**. Open this folder in t
 
 Full walkthrough: [START-HERE.md](START-HERE.md).
 
+## Came here after a live group session?
+
+There is a second track for you: the **Work track**. Instead of a startup, you join Corvane Supply, a fictional distributor, and practice on everyday office work: invoices into a checked spreadsheet, meeting transcripts into follow-ups and requirements, exchange-rate and status reports, a clickable prototype, a read-only reviewer, and your own 30-day pilot. It is organized by session, so after session 3 you practice session 3.
+
+Open the folder in Codex, type `begin`, and tell your mentor which session you just had. The story is in [WORK-CASE.md](WORK-CASE.md).
+
 ## What you build
 
 You create a reusable Codex skill, an interview report, a market-research brief, a data-insights report, a decision memo, a prioritized backlog, a full PRD, and a working MVP landing page. See [THE-CASE.md](THE-CASE.md) for the fictional startup you will operate.
@@ -19,7 +25,8 @@ You create a reusable Codex skill, an interview report, a market-research brief,
 ## Course structure
 
 - `missions/` contains the mission briefs and completion checks.
-- `data/` contains the Signal interview, feedback, personas, and competitor notes.
+- `data/` contains the Signal interview, feedback, personas, and competitor notes, plus `data/corvane/` for the Work track.
+- `sessions/` contains the Work-track missions, one folder per live session.
 - `workspace/` is where your finished work goes.
 - `AGENTS.md` turns Codex into your mentor whenever this repository is opened.
 - `PROGRESS.md` records which mission comes next.

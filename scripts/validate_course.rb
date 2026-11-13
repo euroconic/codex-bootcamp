@@ -4,6 +4,8 @@
 require "csv"
 require "pathname"
 
+Encoding.default_external = Encoding::UTF_8
+
 root = Pathname(__dir__).parent
 errors = []
 passes = []
@@ -23,10 +25,34 @@ check.call("mission set", mission_numbers == expected_missions, "expected #{expe
 
 required = %w[AGENTS.md PROGRESS.md README.md START-HERE.md INSTALL.md THE-CASE.md LICENSE]
 required.each { |path| check.call("required #{path}", root.join(path).file?) }
+check.call("required WORK-CASE.md", root.join("WORK-CASE.md").file?)
+
+expected_sessions = {
+  "s1-context" => %w[1A 1B],
+  "s2-skills" => %w[2A 2B 2C],
+  "s3-external-data" => %w[3A 3B],
+  "s4-prototype-and-roles" => %w[4A 4B 4C],
+  "s5-memory" => %w[5A 5B],
+  "s6-bonus-knowledge" => %w[6A]
+}
+session_dirs = Dir[root.join("sessions/*")].select { |path| File.directory?(path) }.map { |path| File.basename(path) }.sort
+check.call("session folder set", session_dirs == expected_sessions.keys.sort, "got #{session_dirs.join(', ')}")
+expected_sessions.each do |dir, ids|
+  check.call("sessions/#{dir}/README.md", root.join("sessions", dir, "README.md").file?)
+  actual = Dir[root.join("sessions", dir, "MISSION-*.md")].map { |path| File.basename(path) }.sort
+  wanted = ids.map { |id| "MISSION-#{id}.md" }.sort
+  check.call("sessions/#{dir} mission files", actual == wanted, "expected #{wanted.join(', ')}; got #{actual.join(', ')}")
+  wanted.each do |name|
+    file = root.join("sessions", dir, name)
+    next unless file.file?
+
+    check.call("sessions/#{dir}/#{name} has Mentor reference", file.read.include?("## Mentor reference"))
+  end
+end
 
 progress = root.join("PROGRESS.md").read
 check.call("fresh progress pointer", progress.include?("**Current mission:** 00"))
-check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 13)
+check.call("fresh progress boxes", progress.scan(/^- \[ \] /).length == 26, "got #{progress.scan(/^- \[ \] /).length}")
 check.call("no completed boxes in template", progress.scan(/^- \[[xX]\] /).empty?)
 
 csv = CSV.read(root.join("data/feedback.csv"), headers: true)
